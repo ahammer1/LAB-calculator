@@ -1,11 +1,8 @@
 body {
   background-color: gray;
 }
-{
-margin:0;
-padding:0;
 
-}
+
 .main{
   background-color: black;
   color:#fff;
@@ -22,4 +19,12 @@ padding:0;
   height:auto;
   width: 75px;
   flex-wrap: wrap;
+  background-color:  gray;
+}
+
+.btn-lg{
+  display: flex;
+  flex-grow: 4; 
+  text-align: center;
+  align-self: auto;
 }
